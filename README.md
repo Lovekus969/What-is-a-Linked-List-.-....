@@ -112,3 +112,17 @@ Split list in half, reverse second half, merge alternately.
 Use recursion or loops to reverse every group of K nodes, maintaining linkage.
 
 ➡️ Like reversing words in a sentence chunk by chunk.
+
+
+
+---------------------------------------------------------------------LINKED LIST vs ARRAY — FAANG STYLE ------------------------------------------------------------------------------------
+                Feature	Array	Linked List
+📦 Memory layout	                Contiguous (allocated in one block)	                                    vs                          Scattered (nodes stored anywhere in memory)
+🧪 Access time (indexing)           	O(1) random access via index	                                      vs                          O(n) – you must traverse to reach index
+➕ Insertion at front	                 O(n) – must shift elements                                       vs                         	O(1) – change head pointer
+➕ Insertion at end                        	O(1)                                                         vs                         if space exists
+                                                                                             else O(n) resize	O(n) for singly LL (unless you maintain tail)
+➖ Deletion at front                        	O(n) – shift elements                                          vs                      	O(1) – just move head
+➖ Deletion at end/middle                  	O(n) – shift or resize	                                                                O(n) – need to find node before it
+🧠 Use case	Quick read-heavy ops (access by index)                   q                                                             	Frequent insertions/deletions (esp. head)
+📚 Data Structure Type	Static (size fixed after creation)                                                                          	Dynamic (grows/shrinks as needed)
