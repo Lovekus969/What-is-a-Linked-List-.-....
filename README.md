@@ -126,3 +126,6 @@ Use recursion or loops to reverse every group of K nodes, maintaining linkage.
 ➖ Deletion at end/middle                  	O(n) – shift or resize	                                                                O(n) – need to find node before it
 🧠 Use case	Quick read-heavy ops (access by index)                   q                                                             	Frequent insertions/deletions (esp. head)
 📚 Data Structure Type	Static (size fixed after creation)                                                                          	Dynamic (grows/shrinks as needed)
+
+Q. Why can’t we access any index of a Linked List in O(1) time?
+Ans.. Because linked lists are not indexed and don’t store elements in contiguous memory.
