@@ -129,3 +129,53 @@ Use recursion or loops to reverse every group of K nodes, maintaining linkage.
 
 Q. Why can’t we access any index of a Linked List in O(1) time?
 Ans.. Because linked lists are not indexed and don’t store elements in contiguous memory.
+
+
+
+
+For some next work ....keep private  Day 1–2: Graph Basics
+What is a graph (vertices + edges)?
+
+Types: Directed, Undirected, Weighted, Unweighted
+
+Adjacency List vs Matrix
+
+Code a graph in Java (adjacency list)
+
+📍 Day 3–4: Traversal
+BFS (level-order using queue)
+
+DFS (depth traversal using stack/recursion)
+
+Practice LeetCode:
+
+🔗 200. Number of Islands
+
+🔗 133. Clone Graph
+
+📍 Day 5–6: Advanced Applications
+Cycle detection in directed & undirected graphs
+
+Topological Sorting
+
+Practice:
+
+🔗 207. Course Schedule
+
+📍 Day 7–8: Weighted Graphs
+Dijkstra’s Algorithm (shortest path)
+
+Bellman-Ford (handle negative weights)
+
+Practice:
+
+🔗 743. Network Delay Time
+
+📍 Day 9–10: Union Find (Disjoint Set)
+Used in connected components, Kruskal's MST
+
+Practice:
+
+🔗 684. Redundant Connection
+
+
